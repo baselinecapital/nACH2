@@ -7,7 +7,7 @@ describe('isBankHoliday', function() {
 
     it('should return TRUE if given Date object represents a bank holiday', function () {
 
-        expect(holidays.isBankHoliday(new Date('2020-07-05T06:59:59.999Z'))).to.equal(true);
+        expect(holidays.isBankHoliday(new Date('2020-07-04T06:59:59.999Z'))).to.equal(false);
         expect(holidays.isBankHoliday(new Date('2020-07-04T07:00:00.000Z'))).to.equal(true);
         expect(holidays.isBankHoliday(new Date('2020-07-05T06:59:59.999Z'))).to.equal(true);
         expect(holidays.isBankHoliday(new Date('2020-07-05T07:00:00.000Z'))).to.equal(false);
