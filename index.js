@@ -8,3 +8,4 @@ const holidayUtils = require('./lib/bank-holidays/utils');
 
 module.exports.isBankHoliday = holidayUtils.isBankHoliday;
 module.exports.isBankWorkingDay = holidayUtils.isBankWorkingDay;
+module.exports.addBusinessDays = holidayUtils.addBusinessDays;
