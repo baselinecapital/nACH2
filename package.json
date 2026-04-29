@@ -40,5 +40,8 @@
   "devDependencies": {
     "mocha": "^11.7.5",
     "chai": "^5.3.3"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5"
   }
 }
